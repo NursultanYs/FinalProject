@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;700&display=swap");
+
+.container {
+  width: 1221px;
+  margin: 0 auto;
+}
+
+body {
+  background: #edf2ec;
+}
+
+.header {
+  height: 134px;
+  padding: 42px 0;
+}
+
+.header__logo {
+  display: flex;
+  align-items: flex-end;
+
+  font-family: "Inika";
+  font-size: 16px;
+}
+
+.header__nav a {
+  color: #010201;
+  font-family: "Inika";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header__nav ul {
+  display: flex;
+}
+
+.header__nav ul li {
+  margin-left: 46px;
+}
+
+.header__nav a:hover {
+  color: #e06733;
+  font-weight: 700;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcome {
+  min-height: 532px;
+  padding: 62px 0;
+}
+
+.welcome__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcome__descr {
+  width: 549px;
+  padding-top: 38px;
+}
+
+.welcome__descr h1 {
+  color: #717171;
+
+  font-family: "Inter";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 111.111% */
+  margin-bottom: 42px;
+}
+
+.welcome__descr h1 span {
+  color: #499a18;
+}
+
+.welcome__descr p {
+  color: #636060;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px; /* 175% */
+  margin-bottom: 48px;
+}
+
+.welcome__descr button {
+  width: 158px;
+  height: 44px;
+  border-radius: 10px;
+  border: 2px solid #e06733;
+
+  color: #000;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  text-transform: uppercase;
+}
